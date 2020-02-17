@@ -1,0 +1,6 @@
+usr/local/bin/leadertvcoin-qt usr/bin
+share/pixmaps/leadertvcoin32.xpm usr/share/pixmaps
+share/pixmaps/leadertvcoin16.xpm usr/share/pixmaps
+share/pixmaps/leadertvcoin128.png usr/share/pixmaps
+debian/leadertvcoin-qt.desktop usr/share/applications
+debian/leadertvcoin-qt.protocol usr/share/kde4/services/

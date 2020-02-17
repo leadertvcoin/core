@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Name=LeadERTVCoin Core
+Comment=LeadERTVCoin P2P Cryptocurrency
+Comment[fr]=LeadERTVCoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=LeadERTVCoin, eşten eşe kriptografik sanal para birimi
+Exec=leadertvcoin-qt %u
+Terminal=false
+Type=Application
+Icon=leadertvcoin128
+MimeType=x-scheme-handler/leadertvcoin;
+Categories=Office;Finance;
+StartupWMClass=LeadERTVCoin-qt
