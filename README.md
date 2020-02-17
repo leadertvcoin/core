@@ -1,0 +1,2 @@
+# core
+LeadER TV Coin
