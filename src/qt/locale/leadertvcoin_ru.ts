@@ -2119,7 +2119,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <source>out of sync</source>
-        <translation>несинронизировано</translation>
+        <translation>не синхронизировано</translation>
     </message>
     <message>
         <source>Current percentage of zLTV.
@@ -2592,7 +2592,7 @@ To change the percentage (no restart required):
     </message>
     <message>
         <source>out of sync</source>
-        <translation>несинронизировано</translation>
+        <translation>не синхронизировано</translation>
     </message>
     <message>
         <source>Mint Status: Okay</source>
