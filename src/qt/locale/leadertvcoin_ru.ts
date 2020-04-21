@@ -3288,7 +3288,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>RECEIVE</source>
-        <translation>ПОЛУЧАТЬ</translation>
+        <translation>ПОЛУЧИТЬ</translation>
     </message>
     <message>
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the LeadERTVCoin network.</source>
@@ -3453,7 +3453,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>SEND</source>
-        <translation>отправить</translation>
+        <translation>ОТПРАВИТЬ</translation>
     </message>
     <message>
         <source>Coin Control Features</source>
