@@ -1,4 +1,6 @@
-<TS language="ru" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ru">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -87,7 +89,7 @@
     </message>
     <message>
         <source>Comma separated file (*.csv)</source>
-        <translation>Файл формата csv</translation>
+        <translation>Файл, разделенный запятыми  формата (*.csv)</translation>
     </message>
     <message>
         <source>Exporting Failed</source>
@@ -117,27 +119,27 @@
     <name>AskPassphraseDialog</name>
     <message>
         <source>Passphrase Dialog</source>
-        <translation>Диалоговое окно кодовой фразы</translation>
+        <translation>Диалоговое окно парольной фразы</translation>
     </message>
     <message>
         <source>Enter passphrase</source>
-        <translation>Введите кодовую фразу</translation>
+        <translation>Введите парольную фразу</translation>
     </message>
     <message>
         <source>New passphrase</source>
-        <translation>Новая кодовая фраза</translation>
+        <translation>Новая парольная фраза</translation>
     </message>
     <message>
         <source>Repeat new passphrase</source>
-        <translation>Повторить новую кодовую фразу</translation>
+        <translation>Повторить новую парольную фразу</translation>
     </message>
     <message>
         <source>Serves to disable the trivial sendmoney when OS account compromised. Provides no real security.</source>
-        <translation>Служит для отключения тривиальных сендмонэй, когда учетная запись ОС скомпрометирована. Не обеспечивает реальной безопасности. </translation>
+        <translation>Служит для отключения сквозных транзакций троянами, когда учетная запись ОС скомпрометирована. Не обеспечивает реальной безопасности.</translation>
     </message>
     <message>
         <source>For anonymization, automint, and staking only</source>
-        <translation>Только для анонимности, автосоздания и хранения</translation>
+        <translation>Только для активизации режима PoS майнинга</translation>
     </message>
     <message>
         <source>Enter the new passphrase to the wallet.&lt;br/&gt;Please use a passphrase of &lt;b&gt;ten or more random characters&lt;/b&gt;, or &lt;b&gt;eight or more words&lt;/b&gt;.</source>
@@ -149,15 +151,15 @@
     </message>
     <message>
         <source>This operation needs your wallet passphrase to unlock the wallet.</source>
-        <translation>Для этой операции требуется кодовая фраза вашего кошелька, чтобы разблокировать кошелек.</translation>
+        <translation>Для этой операции требуется парольная фраза вашего кошелька, чтобы разблокировать кошелек.</translation>
     </message>
     <message>
         <source>Unlock wallet</source>
-        <translation>Снятие блокировки кошелька</translation>
+        <translation>Разблокировать кошелёк</translation>
     </message>
     <message>
         <source>This operation needs your wallet passphrase to decrypt the wallet.</source>
-        <translation>Для операции дешифрования вашего кошелька нужна кодовая фраза.</translation>
+        <translation>Для операции дешифрования вашего кошелька нужна парольная фраза.</translation>
     </message>
     <message>
         <source>Decrypt wallet</source>
@@ -165,11 +167,11 @@
     </message>
     <message>
         <source>Change passphrase</source>
-        <translation>Изменить кодовую фразу</translation>
+        <translation>Изменить парольную фразу</translation>
     </message>
     <message>
         <source>Enter the old and new passphrase to the wallet.</source>
-        <translation>Введите старую и новую кодовую фразу для кошелька.</translation>
+        <translation>Введите старую и новую парольную фразу для кошелька.</translation>
     </message>
     <message>
         <source>Confirm wallet encryption</source>
@@ -213,7 +215,7 @@
     </message>
     <message>
         <source>The passphrase entered for the wallet decryption was incorrect.</source>
-        <translation>Кодовая фраза, введенная для расшифровки кошелька, была неверной.</translation>
+        <translation>Парольная фраза, введенная для расшифровки кошелька, была неверной.</translation>
     </message>
     <message>
         <source>Wallet decryption failed</source>
@@ -236,7 +238,7 @@
     </message>
     <message>
         <source>Banned Until</source>
-        <translation>Запрещено до</translation>
+        <translation>Забанен до</translation>
     </message>
 </context>
 <context>
@@ -255,7 +257,7 @@
     </message>
     <message>
         <source>Enter a LeadERTVCoin Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Введите LeadERTVCoin адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите "Зашифровать", чтобы создать зашиврованный секретный ключ.</translation>
+        <translation>Введите LeadERTVCoin адрес, которым вы хотите зашифровать, используя BIP 38. Введите пароль в среднем поле. Нажмите &quot;Зашифровать&quot;, чтобы создать зашиврованный секретный ключ.</translation>
     </message>
     <message>
         <source>The LeadERTVCoin address to encrypt</source>
@@ -279,7 +281,7 @@
     </message>
     <message>
         <source>Passphrase: </source>
-        <translation>Кодовая фраза:</translation>
+        <translation>Парольная фраза: </translation>
     </message>
     <message>
         <source>Encrypted Key:</source>
@@ -291,7 +293,7 @@
     </message>
     <message>
         <source>Encrypt the private key for this LeadERTVCoin address</source>
-        <translation>Зашифровать личные ключи для этого LeadERTVCoin адреса </translation>
+        <translation>Зашифровать личные ключи для этого LeadERTVCoin адреса</translation>
     </message>
     <message>
         <source>Reset all fields</source>
@@ -318,7 +320,7 @@
         <translation>&amp;BIP 38 Дешифрование</translation>
     </message>
     <message>
-        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking 'Import Address' will add this private key to the wallet.</source>
+        <source>Enter the BIP 38 encrypted private key. Enter the passphrase in the middle box. Click Decrypt Key to compute the private key. After the key is decrypted, clicking &apos;Import Address&apos; will add this private key to the wallet.</source>
         <translation>Введите зашифрованный с помощью BIP 38 секретный ключ. Введите секретную фразу в среднем окне. Нажмите Дешифровать Ключ чтобы создать секретный ключ. Нажав на Импортировать Адрес после дешифровки, вы добавите секретный ключ к кошельку.</translation>
     </message>
     <message>
@@ -327,19 +329,19 @@
     </message>
     <message>
         <source>Decrypted Key:</source>
-        <translation>Дешифрованный Ключ</translation>
+        <translation>Дешифрованный Ключ:</translation>
     </message>
     <message>
         <source>Import Address</source>
         <translation>Импортировать Адрес</translation>
     </message>
     <message>
-        <source>Click "Decrypt Key" to compute key</source>
-        <translation>Нажмите "Дешифровать Ключ" для генерации ключа</translation>
+        <source>Click &quot;Decrypt Key&quot; to compute key</source>
+        <translation>Нажмите &quot;Дешифровать Ключ&quot; для генерации ключа</translation>
     </message>
     <message>
         <source>The entered passphrase is invalid. </source>
-        <translation>Неправильно введена кодовая фраза.</translation>
+        <translation>Неправильно введена кодовая фраза. </translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -434,7 +436,7 @@
     </message>
     <message>
         <source>Privacy Actions for zLTV</source>
-        <translation>Действия конфиденциальности для зпив</translation>
+        <translation>Действия конфиденциальности для zLTV</translation>
     </message>
     <message>
         <source>E&amp;xit</source>
@@ -482,11 +484,11 @@
     </message>
     <message>
         <source>&amp;Change Passphrase...</source>
-        <translation>&amp;Изменить кодовую фразу</translation>
+        <translation>&amp;Изменить парольную фразу...</translation>
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
-        <translation>Изменение кодовой фразы, используемой для шифрования кошелька</translation>
+        <translation>Изменение парольной фразы, используемой для шифрования кошелька</translation>
     </message>
     <message>
         <source>&amp;Unlock Wallet...</source>
@@ -534,11 +536,11 @@
     </message>
     <message>
         <source>&amp;Peers list</source>
-        <translation>&amp;Список пиров</translation>
+        <translation>&amp;Список узлов</translation>
     </message>
     <message>
         <source>Show peers info</source>
-        <translation>Показать информацию о пирах</translation>
+        <translation>Показать информацию о узлах</translation>
     </message>
     <message>
         <source>Wallet &amp;Repair</source>
@@ -566,7 +568,7 @@
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
-        <translation>Показать список использованых адресов отправки </translation>
+        <translation>Показать список использованых адресов отправки</translation>
     </message>
     <message>
         <source>&amp;Receiving addresses...</source>
@@ -578,15 +580,15 @@
     </message>
     <message>
         <source>&amp;Multisignature creation...</source>
-        <translation>СОздание многоподписей...</translation>
+        <translation>С&amp;оздание мультиподписи...</translation>
     </message>
     <message>
         <source>Create a new multisignature address and add it to this wallet</source>
-        <translation>Создание нового адреса многоадресной подписи и добавление его в бумажник</translation>
+        <translation>Создание нового мультиподписанного адреса и добавить его в кошелёк</translation>
     </message>
     <message>
         <source>&amp;Multisignature spending...</source>
-        <translation>&amp;Многоподписная трата...</translation>
+        <translation>&amp;Мультиподписные расходы...</translation>
     </message>
     <message>
         <source>Spend from a multisignature address</source>
@@ -594,15 +596,15 @@
     </message>
     <message>
         <source>&amp;Multisignature signing...</source>
-        <translation>&amp;Многоподписная подпись...</translation>
+        <translation>&amp;Мультиподписная подпись...</translation>
     </message>
     <message>
         <source>Sign with a multisignature address</source>
-        <translation>Подпишись с многоподписным адресом</translation>
+        <translation>Подпишись с мультиподписным адресом</translation>
     </message>
     <message>
         <source>Open &amp;URI...</source>
-        <translation>Открыть &amp;URI</translation>
+        <translation>Открыть &amp;URI...</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -618,7 +620,7 @@
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt; for anonymization and staking only</source>
-        <translation>Кошелек &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;разблокирован&lt;/b&gt; для анонимности и хранения.</translation>
+        <translation>Кошелек &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;разблокирован&lt;/b&gt; для PoS и хранения</translation>
     </message>
     <message>
         <source>Tor is &lt;b&gt;enabled&lt;/b&gt;: %1</source>
@@ -686,7 +688,7 @@
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified LeadERTVCoin addresses</source>
-        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным LeadERTVCoin адресом </translation>
+        <translation>Проверте сообщения, чтобы убедиться, что они были подписаны указанным LeadERTVCoin адресом</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -734,7 +736,7 @@
     </message>
     <message>
         <source>LeadERTVCoin Core client</source>
-        <translation>Клиент LeadERTVCoin Core</translation>
+        <translation>LeadERTVCoin Кошелёк</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -750,7 +752,7 @@
     </message>
     <message>
         <source>No block source available...</source>
-        <translation>Источник блоков недоступен</translation>
+        <translation>Источник блоков недоступен...</translation>
     </message>
     <message>
         <source>Up to date</source>
@@ -766,11 +768,11 @@
     </message>
     <message>
         <source>Last received block was generated %1 ago.</source>
-        <translation>Последний полученный блок был сгенерирован %1 назад</translation>
+        <translation>Последний полученный блок был сгенерирован %1 назад.</translation>
     </message>
     <message>
         <source>Transactions after this will not yet be visible.</source>
-        <translation>Трансакции после этой не будут видимы</translation>
+        <translation>Трансакции после этой не будут видимы.</translation>
     </message>
     <message>
         <source>Error</source>
@@ -830,11 +832,11 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>AutoMint is currently enabled and set to </source>
-        <translation>Авточеканка в данный момен включена и установлена в</translation>
+        <translation>PoS в данный момен включена и установлена в </translation>
     </message>
     <message>
         <source>AutoMint is disabled</source>
-        <translation>Авточеканка отключена</translation>
+        <translation>PoS отключен</translation>
     </message>
     <message>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;unlocked&lt;/b&gt;</source>
@@ -844,7 +846,7 @@ MultiSend: %1</translation>
         <source>Wallet is &lt;b&gt;encrypted&lt;/b&gt; and currently &lt;b&gt;locked&lt;/b&gt;</source>
         <translation>Кошелек &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;заблокирован&lt;/b&gt;</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>BlockExplorer</name>
     <message>
@@ -1011,7 +1013,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Copy after fee</source>
-        <translation>Копировать после вознаграждения </translation>
+        <translation>Копировать после вознаграждения</translation>
     </message>
     <message>
         <source>Copy bytes</source>
@@ -1030,8 +1032,8 @@ MultiSend: %1</translation>
         <translation>Копировать изменение</translation>
     </message>
     <message>
-        <source>Please switch to "List mode" to use this function.</source>
-        <translation>Для использования этой функции перейдите в "Режим списка"</translation>
+        <source>Please switch to &quot;List mode&quot; to use this function.</source>
+        <translation>Для использования этой функции перейдите в &quot;Режим списка&quot;.</translation>
     </message>
     <message>
         <source>highest</source>
@@ -1091,27 +1093,27 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>This means a fee of at least %1 per kB is required.</source>
-        <translation>Это означает, что необходима комиссия в размере как минимум %1 за kB</translation>
+        <translation>Это означает, что необходима комиссия в размере как минимум %1 за kB.</translation>
     </message>
     <message>
         <source>Can vary +/- 1 byte per input.</source>
-        <translation>Может вариировать +/- 1 байт на каждый ввод</translation>
+        <translation>Может вариировать +/- 1 байт на каждый ввод.</translation>
     </message>
     <message>
         <source>Transactions with higher priority are more likely to get included into a block.</source>
         <translation>Транзакции с высоким приоритетом с большей вероятностью будут включены в блок.</translation>
     </message>
     <message>
-        <source>This label turns red, if the priority is smaller than "medium".</source>
-        <translation>Этот маркер становится красным если приоритет ниже, чем "средний".</translation>
+        <source>This label turns red, if the priority is smaller than &quot;medium&quot;.</source>
+        <translation>Этот маркер становится красным если приоритет ниже, чем &quot;средний&quot;.</translation>
     </message>
     <message>
         <source>This label turns red, if any recipient receives an amount smaller than %1.</source>
-        <translation>Этот маркер становится красным если получаемая адресатом сумма меньше, чем %1</translation>
+        <translation>Этот маркер становится красным если получаемая адресатом сумма меньше, чем %1.</translation>
     </message>
     <message>
         <source>Can vary +/- %1 ultv per input.</source>
-        <translation>Может вариироваться +/- %1 ultv при вводе</translation>
+        <translation>Может вариироваться +/- %1 ultv при вводе.</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1165,12 +1167,12 @@ MultiSend: %1</translation>
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid LeadERTVCoin address.</source>
-        <translation>Введенный адрес "%1" не является LeadERTVCoin адресом.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid LeadERTVCoin address.</source>
+        <translation>Введенный адрес &quot;%1&quot; не является LeadERTVCoin адресом.</translation>
     </message>
     <message>
-        <source>The entered address "%1" is already in the address book.</source>
-        <translation>Введенный адрес "%1" уже находится в записной книге.</translation>
+        <source>The entered address &quot;%1&quot; is already in the address book.</source>
+        <translation>Введенный адрес &quot;%1&quot; уже находится в записной книге.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1214,7 +1216,7 @@ MultiSend: %1</translation>
         <source>0</source>
         <translation>0</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>HelpMessageDialog</name>
     <message>
@@ -1247,7 +1249,7 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>UI Options:</source>
-        <translation>Опции интерфейса</translation>
+        <translation>Опции интерфейса:</translation>
     </message>
     <message>
         <source>Choose data directory on startup (default: %u)</source>
@@ -1258,8 +1260,8 @@ MultiSend: %1</translation>
         <translation>Показывать загрузочную заставку при запуске (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Set language, for example "de_DE" (default: system locale)</source>
-        <translation>Задайте язык, например "de_DE"(по умолчанию: язык системы)</translation>
+        <source>Set language, for example &quot;de_DE&quot; (default: system locale)</source>
+        <translation>Задайте язык, например &quot;de_DE&quot;(по умолчанию: язык системы)</translation>
     </message>
     <message>
         <source>Start minimized</source>
@@ -1278,31 +1280,31 @@ MultiSend: %1</translation>
     </message>
     <message>
         <source>Welcome to LeadERTVCoin Core.</source>
-        <translation>Добро пожаловать в LeadERTVCoin Core.</translation>
+        <translation>Добро пожаловать в LeadERTVCoin Кошелёк.</translation>
     </message>
     <message>
         <source>As this is the first time the program is launched, you can choose where LeadERTVCoin Core will store its data.</source>
-        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные LeadERTVCoin Core.</translation>
+        <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться фаилы LeadERTVCoin Кошелька.</translation>
     </message>
     <message>
         <source>LeadERTVCoin Core will download and store a copy of the LeadERTVCoin block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>LeadERTVCoin Core загрузит и сохранит копию цепочки блоков LeadERTVCoin. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <translation>LeadERTV Coin Кошелёк загрузит и сохранит копию цепочки блоков LTVCoin. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
-        <translation>Использовать каталог данных по умолчанию</translation>
+        <translation>Использовать путь по умолчанию (без кириллицы)</translation>
     </message>
     <message>
         <source>Use a custom data directory:</source>
-        <translation>Использовать другой каталог данных:</translation>
+        <translation>Использовать другой путь данных:</translation>
     </message>
     <message>
         <source>LeadERTVCoin Core</source>
-        <translation>LeadERTVCoin Core</translation>
+        <translation>LeadERTV Coin Кошелёк</translation>
     </message>
     <message>
-        <source>Error: Specified data directory "%1" cannot be created.</source>
-        <translation>Ошибка: Невозможно создать указанный каталог данных "%1" </translation>
+        <source>Error: Specified data directory &quot;%1&quot; cannot be created.</source>
+        <translation>Ошибка: Невозможно создать папку &quot;%1&quot; Кириллица?</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1328,8 +1330,8 @@ MultiSend: %1</translation>
         <translation>МАСТЕРНОДЫ</translation>
     </message>
     <message>
-        <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see "MISSING" in "Status" field.</source>
-        <translation>Примечание: Состояние ваших мастернод в локальном кошельке может слегка отличаться от действительности. &lt;br /&gt;Всегда дожидайтесь окончания синхронизации дополнительных данных и затем дважды проверьте с другого узла&lt;br /&gt;если ваша нода должна работать, но в окне "Состояние" пишет "НЕАКТИВНО"</translation>
+        <source>Note: Status of your masternodes in local wallet can potentially be slightly incorrect.&lt;br /&gt;Always wait for wallet to sync additional data and then double check from another node&lt;br /&gt;if your node should be running but you still see &quot;MISSING&quot; in &quot;Status&quot; field.</source>
+        <translation>Примечание: Состояние ваших мастернод в локальном кошельке может слегка отличаться от действительности. &lt;br /&gt;Всегда дожидайтесь окончания синхронизации дополнительных данных и затем дважды проверьте с другого узла&lt;br /&gt;если ваша нода должна работать, но в окне &quot;Состояние&quot; пишет &quot;НЕАКТИВНО&quot;</translation>
     </message>
     <message>
         <source>Alias</source>
@@ -1408,7 +1410,7 @@ MultiSend: %1</translation>
         <translation>Команда сейчас недоступна</translation>
     </message>
     <message>
-        <source>You can't use this command until masternode list is synced</source>
+        <source>You can&apos;t use this command until masternode list is synced</source>
         <translation>Использование этой команды невозможно пока не синхронизирован список мастернод</translation>
     </message>
     <message>
@@ -1584,7 +1586,7 @@ MultiSend будет неактивен до тех пор, пока вы не �
         <translation>Статус:</translation>
     </message>
     <message>
-        <source>Use below to quickly import an address by its redeem. Don't forget to add a label before clicking import!
+        <source>Use below to quickly import an address by its redeem. Don&apos;t forget to add a label before clicking import!
 Keep in mind, the wallet will rescan the blockchain to find transactions containing the new address.
 Please be patient after clicking import.</source>
         <translation>Используйте ниже, чтобы быстро импортировать адрес пока его не погасили. Не забудьте добавить ярлык перед нажатием на импорт!
@@ -1925,7 +1927,7 @@ https://www.transifex.com/leadertvcoin-project/leadertvcoin-project-translations
     </message>
     <message>
         <source>Third party URLs (e.g. a block explorer) that appear in the transactions tab as context menu items. %s in the URL is replaced by transaction hash. Multiple URLs are separated by vertical bar |.</source>
-        <translation>Сторониие ссылки (такие как block exporer), которые отображаются в закладке "транзакции" как контекстное меню. %s в ссыле будет замещено хэшем транзакции. Ссылки отделяются друг от друга вертикальной чертой |.</translation>
+        <translation>Сторониие ссылки (такие как block exporer), которые отображаются в закладке &quot;транзакции&quot; как контекстное меню. %s в ссыле будет замещено хэшем транзакции. Ссылки отделяются друг от друга вертикальной чертой |.</translation>
     </message>
     <message>
         <source>Third party transaction URLs</source>
@@ -2036,7 +2038,7 @@ https://www.transifex.com/leadertvcoin-project/leadertvcoin-project-translations
     </message>
     <message>
         <source>Your current LeadERTVCoin balance, unconfirmed and immature transactions included</source>
-        <translation>Ваш текущий LeadERTVCoin  баланс, включая неподтвержденные и незрелые транзакции</translation>
+        <translation>Ваш текущий LTV баланс, включая неподтвержденные и незрелые транзакции</translation>
     </message>
     <message>
         <source>zLTV Balance</source>
@@ -2055,7 +2057,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the LeadERTVCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью LeadERTVCoin после установки соединения, но этот процесс еще не завершен. </translation>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью LeadERTVCoin после установки соединения, но этот процесс еще не завершен.</translation>
     </message>
     <message>
         <source>OVERVIEW</source>
@@ -2103,7 +2105,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <source>Locked:</source>
-        <translation>Заперто</translation>
+        <translation>Заперто:</translation>
     </message>
     <message>
         <source>Unconfirmed:</source>
@@ -2111,7 +2113,7 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
     </message>
     <message>
         <source>Your current zLTV balance, unconfirmed and immature zLTV included.</source>
-        <translation>Ваш текущий zLTV баланс, включая неподтвержденные и незрелые транзакции</translation>
+        <translation>Ваш текущий zLTV баланс, включая неподтвержденные и незрелые транзакции.</translation>
     </message>
     <message>
         <source>Recent transactions</source>
@@ -2131,17 +2133,17 @@ If AutoMint is enabled this percentage will settle around the configured AutoMin
     </message>
     <message>
         <source>AutoMint is currently enabled and set to </source>
-        <translation>Авточеканка в данный момен включена и установлена в</translation>
+        <translation>PoS в данный момен включен и установлен в </translation>
     </message>
     <message>
-        <source>To disable AutoMint add 'enablezeromint=0' in leadertvcoin.conf.</source>
-        <translation>To disable AutoMint add 'enablezeromint=0' in leadertvcoin.conf.</translation>
+        <source>To disable AutoMint add &apos;enablezeromint=0&apos; in leadertvcoin.conf.</source>
+        <translation>To disable AutoMint add &apos;enablezeromint=0&apos; in leadertvcoin.conf.</translation>
     </message>
     <message>
         <source>AutoMint is currently disabled.
-To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in leadertvcoin.conf</source>
+To enable AutoMint change &apos;enablezeromint=0&apos; to &apos;enablezeromint=1&apos; in leadertvcoin.conf</source>
         <translation>Авточеканка  в настоящее время отключена.
-Чтобы включить Авточеканку, измените 'enablezeromint = 0' на 'enablezeromint = 1' в файле leadertvcoin.conf</translation>
+Чтобы включить Авточеканку, измените &apos;enablezeromint = 0&apos; на &apos;enablezeromint = 1&apos; в файле leadertvcoin.conf</translation>
     </message>
 </context>
 <context>
@@ -2183,7 +2185,7 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in leadertvco
         <translation>Запрос на оплату отклонен</translation>
     </message>
     <message>
-        <source>Payment request network doesn't match client network.</source>
+        <source>Payment request network doesn&apos;t match client network.</source>
         <translation>Сеть запроса на оплату отличается от сети клиента.</translation>
     </message>
     <message>
@@ -2254,11 +2256,11 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in leadertvco
     <name>PrivacyDialog</name>
     <message>
         <source>Zerocoin Actions:</source>
-        <translation>Действия Zerocoin </translation>
+        <translation>Действия Zerocoin:</translation>
     </message>
     <message>
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the LeadERTVCoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью LeadERTVCoin после установки соединения, но этот процесс еще не завершен. </translation>
+        <translation>Возможно отображаемая информация устарела. Ваш кошелек автоматически синхронизируется с сетью LeadERTVCoin после установки соединения, но этот процесс еще не завершен.</translation>
     </message>
     <message>
         <source>Mint Zerocoin</source>
@@ -2282,7 +2284,7 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in leadertvco
     </message>
     <message>
         <source>Rescan the complete blockchain for  Zerocoin mints and their meta-data.</source>
-        <translation>Пересканировать  завершенную блокчейн для Zerocoin  чеканки и мета данных</translation>
+        <translation>Пересканировать  завершенную блокчейн для Zerocoin&#xa0; чеканки и мета данных</translation>
     </message>
     <message>
         <source>ReScan</source>
@@ -2309,7 +2311,7 @@ To enable AutoMint change 'enablezeromint=0' to 'enablezeromint=1' in leadertvco
         <translation>Выбранное Количество:</translation>
     </message>
     <message>
-        <source>Spend Zerocoin. Without 'Pay To:' address creates payments to yourself.</source>
+        <source>Spend Zerocoin. Without &apos;Pay To:&apos; address creates payments to yourself.</source>
         <translation>Потратить Zerocoin. Без адреса «Оплатить кому» вы сами создаете платежи.</translation>
     </message>
     <message>
@@ -2418,8 +2420,8 @@ Immature: confirmed, but less than 1 mint of the same denomination after it was 
         <source>Show the current status of automatic zLTV minting.
 
 To change the status (restart required):
-- enable: add 'enablezeromint=1' to leadertvcoin.conf
-- disable: add 'enablezeromint=0' to leadertvcoin.conf
+- enable: add &apos;enablezeromint=1&apos; to leadertvcoin.conf
+- disable: add &apos;enablezeromint=0&apos; to leadertvcoin.conf
 
 To change the percentage (no restart required):
 - menu Settings-&gt;Options-&gt;Percentage of autominted zLTV
@@ -2428,8 +2430,8 @@ To change the percentage (no restart required):
         <translation>Показать текущий статус автоматической чеканки zLTV.
 
 Чтобы изменить статус (требуется перезагрузка):
-- включить: добавить 'enablezeromint = 1' в leadertvcoin.conf
-- отключить: добавить 'enablezeromint = 0' в leadertvcoin.conf
+- включить: добавить &apos;enablezeromint = 1&apos; в leadertvcoin.conf
+- отключить: добавить &apos;enablezeromint = 0&apos; в leadertvcoin.conf
 
 Чтобы изменить процент (не требуется перезагрузка):
 - меню Настройки-&gt; Параметры-&gt; Процент авторизованного zLTV</translation>
@@ -2715,7 +2717,7 @@ Please be patient...</source>
         <translation>Запуск ResetSpentZerocoin:</translation>
     </message>
     <message>
-        <source>No 'Pay To' address provided, creating local payment</source>
+        <source>No &apos;Pay To&apos; address provided, creating local payment</source>
         <translation>Не предоставляется адрес «Pay To», создающий местный платеж</translation>
     </message>
     <message>
@@ -2788,9 +2790,6 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>ProposalFrame</name>
-    </context>
-<context>
     <name>QObject</name>
     <message>
         <source>Amount</source>
@@ -2844,7 +2843,7 @@ Please be patient...</source>
         <source>LeadERTVCoin Core</source>
         <translation>LeadERTVCoin Core</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>QRImageWidget</name>
     <message>
@@ -2940,7 +2939,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Open the LeadERTVCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки LeadERTVCoin. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <translation>Открыть протокол отладки LTV. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -3132,7 +3131,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>The buttons below will restart the wallet with command-line options to repair the wallet, fix issues with corrupt blockhain files or missing/obsolete transactions.</source>
-        <translation>Кнопка ниже перезапустит кошелёк с некоторыми опциями кммандной строки чтобы отремотировать кошелёк, файлы блокчейна и пропавшие / устаревшие транзакции. </translation>
+        <translation>Кнопка ниже перезапустит кошелёк с некоторыми опциями кммандной строки чтобы отремотировать кошелёк, файлы блокчейна и пропавшие / устаревшие транзакции.</translation>
     </message>
     <message>
         <source>Wallet repair options.</source>
@@ -3461,7 +3460,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Insufficient funds!</source>
-        <translation>Недостаточно средств</translation>
+        <translation>Недостаточно средств!</translation>
     </message>
     <message>
         <source>Quantity:</source>
@@ -3533,7 +3532,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Choose...</source>
-        <translation>Выберите:</translation>
+        <translation>Выберите...</translation>
     </message>
     <message>
         <source>collapse fee-settings</source>
@@ -3580,16 +3579,16 @@ Please be patient...</source>
         <translation>Монеты автоматически выбираются</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uLTVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLTVs in fee,&lt;br /&gt;while "at least" pays 1000 uLTVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uLTVs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uLTVs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uLTVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>Если пользовательская плата установлена в 1000 uLTVs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uLTVs,&lt;br /&gt;а «по крайней мере» платит 1000 uLTV. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
     </message>
     <message>
-        <source>If the custom fee is set to 1000 uLTVs and the transaction is only 250 bytes, then "per kilobyte" only pays 250 uLTVs in fee,&lt;br /&gt;while "total at least" pays 1000 uLTVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uLTVs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uLTVs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uLTVs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation>Если пользовательская плата установлена в 1000 uLTVs, а транзакция составляет всего 250 байт, тогда «за килобайт» платит только 250 uLTVs,&lt;br /&gt;а «по крайней мере» платит 1000 uLTV. Для транзакций, превышающих килобайт, оплата за килобайт</translation>
     </message>
     <message>
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for LeadERTVCoin transactions than the network can process.</source>
-        <translation>Платить только минимальную плату просто отлично, если в блоке меньше объема транзакции, чем места в блоке.&lt;br /&gt; Но имейте в виду, что это может закончиться никогда не подтверждающей транзакцией, если будет больше спроса на транзакции LeadERTVCoin, чем сеть может обрабатывать.</translation>
+        <translation>Платить только минимальную плату просто отлично, если в блоке меньше объема транзакции, чем места в блоке.&lt;br /&gt;&#xa0;Но имейте в виду, что это может закончиться никогда не подтверждающей транзакцией, если будет больше спроса на транзакции LeadERTVCoin, чем сеть может обрабатывать.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3765,7 +3764,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
-        <translation>Предупреждение: Неизвестный адрес </translation>
+        <translation>Предупреждение: Неизвестный адрес</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -3945,7 +3944,7 @@ Please be patient...</source>
         <translation>Сбросить все поля подтверждения</translation>
     </message>
     <message>
-        <source>Click "Sign Message" to generate signature</source>
+        <source>Click &quot;Sign Message&quot; to generate signature</source>
         <translation>Нажмите «Sign Message» для создания подписи</translation>
     </message>
     <message>
@@ -4178,7 +4177,7 @@ Please be patient...</source>
         <translation>коммерсант</translation>
     </message>
     <message>
-        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to "not accepted" and it won't be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
+        <source>Generated coins must mature %1 blocks before they can be spent. When you generated this block, it was broadcast to the network to be added to the block chain. If it fails to get into the chain, its state will change to &quot;not accepted&quot; and it won&apos;t be spendable. This may occasionally happen if another node generates a block within a few seconds of yours.</source>
         <translation>Сгенерированные монеты должны созреть %1 блоков, прежде чем они могут быть потрачены. Когда вы сгенерировали этот блок, он будет передан в сеть, которая будет добавлена в цепочку блоков. Если ему не удастся войти в цепочку, его состояние изменится на «не принято», и оно не будет потрачено. Иногда это может произойти, если другой узел генерирует блок за несколько секунд.</translation>
     </message>
     <message>
@@ -4317,7 +4316,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Minted Change as zLTV from zLTV Spend</source>
-        <translation>созданная  замена  zLTV из потраенного zLTV </translation>
+        <translation>созданная  замена  zLTV из потраенного zLTV</translation>
     </message>
     <message>
         <source>Converted zLTV to LTV</source>
@@ -4552,7 +4551,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Range:</source>
-        <translation>диапазон</translation>
+        <translation>Диапазон:</translation>
     </message>
     <message>
         <source>to</source>
@@ -4580,7 +4579,7 @@ Please be patient...</source>
         <translation>Отправить Монеты</translation>
     </message>
     <message>
-        <source>SwiftX doesn't support sending values that high yet. Transactions are currently limited to %1 LTV.</source>
+        <source>SwiftX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 LTV.</source>
         <translation>SwiftX не поддерживает отправку значений, которые еще высоки. В настоящее время транзакции ограничены %1 LTV.</translation>
     </message>
 </context>
@@ -4633,7 +4632,7 @@ Please be patient...</source>
         <source>Select/Deselect All</source>
         <translation>Выбрать / Отменить выбор</translation>
     </message>
-    </context>
+</context>
 <context>
     <name>leadertvcoin-core</name>
     <message>
@@ -4658,7 +4657,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Calculated accumulator checkpoint is not what is recorded by block index</source>
-        <translation>Расчетная контрольная точка  не является тем, что регистрируется блочным индексом</translation>
+        <translation>Расчетная контрольная точка не является тем, что регистрируется блочным индексом</translation>
     </message>
     <message>
         <source>Cannot obtain a lock on data directory %s. LeadERTVCoin Core is probably already running.</source>
@@ -4717,7 +4716,7 @@ Please be patient...</source>
         <translation>Ошибка: транзакция больше максимально допустимого размера транзакции!</translation>
     </message>
     <message>
-        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn't possible anymore, only SOCKS5 proxies are supported.</source>
+        <source>Error: Unsupported argument -socks found. Setting SOCKS version isn&apos;t possible anymore, only SOCKS5 proxies are supported.</source>
         <translation>Ошибка: обнаружен неподдерживаемый аргумент -socks. Настройка версии SOCKS больше невозможна, поддерживаются только прокси SOCKS5.</translation>
     </message>
     <message>
@@ -4757,8 +4756,8 @@ Please be patient...</source>
         <translation>Недостаточно или недостаточно подтвержденных средств, вам может потребоваться несколько минут и повторите попытку.</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s' (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
-        <translation>Недопустимая сумма для -maxtxfee =&lt;amount&gt;: '%s' (должна быть минимальная плата %s для предотвращения застревания транзакций)</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least the minrelay fee of %s to prevent stuck transactions)</source>
+        <translation>Недопустимая сумма для -maxtxfee =&lt;amount&gt;: &apos;%s&apos; (должна быть минимальная плата %s для предотвращения застревания транзакций)</translation>
     </message>
     <message>
         <source>Keep the specified amount available for spending at all times (default: 0)</source>
@@ -4861,7 +4860,7 @@ Please be patient...</source>
         <translation>Предупреждение: -paytxfee установлен очень высоко! Это комиссия за транзакцию, которую вы заплатите, если вы отправляете транзакцию.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong LeadERTVCoin Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong LeadERTVCoin Core will not work properly.</source>
         <translation>Внимание: проверьте правильность даты и времени вашего компьютера! Если ваши часы ошибочны, LeadERTVCoin Core не будет работать должным образом.</translation>
     </message>
     <message>
@@ -4882,15 +4881,15 @@ Please be patient...</source>
     </message>
     <message>
         <source>Whitelist peers connecting from the given netmask or IP address. Can be specified multiple times.</source>
-        <translation>Список белых списков, соединяющихся с данной сетевой маской или IP-адресом. Может быть указано несколько раз.</translation>
+        <translation>Белый спиоск пиров, соединяющихся с данной сетевой маской или IP-адресом. Может быть указано несколько раз.</translation>
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>
-        <translation>Учетные записи белых списков не могут быть запрещены DoS, и их транзакции всегда передаются, даже если они уже находятся в мэппуле, полезными, например, для шлюза</translation>
+        <translation>Одноранговые узлы из белого списка не могут быть запрещены DoS, и их транзакции всегда ретранслируются, даже если они уже находятся в mempool, что полезно, например, для шлюза</translation>
     </message>
     <message>
         <source>You must specify a masternodeprivkey in the configuration. Please see documentation for help.</source>
-        <translation>Вы должны указать в  строке приложенный ключ. Пожалуйста, обратитесь к документации для получения справки</translation>
+        <translation>Вы должны указать в строке приложенный ключ. Пожалуйста, обратитесь к документации для получения справки.</translation>
     </message>
     <message>
         <source>(16314 could be used only on mainnet)</source>
@@ -4953,16 +4952,16 @@ Please be patient...</source>
         <translation>Нельзя понизить кошелек</translation>
     </message>
     <message>
-        <source>Cannot resolve -bind address: '%s'</source>
-        <translation>Не удается разрешить -включить адрес: '%s'</translation>
+        <source>Cannot resolve -bind address: &apos;%s&apos;</source>
+        <translation>Не удается разрешить -включить адрес: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Cannot resolve -externalip address: '%s'</source>
-        <translation>Не удается разрешить -externalip адрес: '%s'</translation>
+        <source>Cannot resolve -externalip address: &apos;%s&apos;</source>
+        <translation>Не удается разрешить -externalip адрес: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Cannot resolve -whitebind address: '%s'</source>
-        <translation>Не удается разрешить -whitebind адрес: '%s'</translation>
+        <source>Cannot resolve -whitebind address: &apos;%s&apos;</source>
+        <translation>Не удается разрешить -whitebind адрес: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Cannot write default address</source>
@@ -5074,7 +5073,7 @@ Please be patient...</source>
     </message>
     <message>
         <source>Error loading wallet.dat: Wallet requires newer version of LeadERTVCoin Core</source>
-        <translation>Ошибка загрузки wallet.dat: Кошелек требует более новой версии LeadERTVCoin Core</translation>
+        <translation>Ошибка загрузки wallet.dat: Требуется  более новая версия LeadERTVCoin Кошелька</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -5181,28 +5180,28 @@ Please be patient...</source>
         <translation>Недостаточно средств.</translation>
     </message>
     <message>
-        <source>Invalid -onion address or hostname: '%s'</source>
-        <translation>Недопустимый -онионный адрес или имя хоста: '%s'</translation>
+        <source>Invalid -onion address or hostname: &apos;%s&apos;</source>
+        <translation>Недопустимый -онионный адрес или имя хоста: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Недопустимая сумма для -maxtxfee =&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -maxtxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Недопустимая сумма для -maxtxfee =&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Недопустимая сумма для -minrelaytxfee&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -minrelaytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Недопустимая сумма для -minrelaytxfee&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -mintxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Недопустимая сумма для -mintxfee =&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -mintxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Недопустимая сумма для -mintxfee =&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (must be at least %s)</source>
-        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: '%s' (должен быть не менее%s)</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (must be at least %s)</source>
+        <translation>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos; (должен быть не менее%s)</translation>
     </message>
     <message>
-        <source>Invalid amount for -paytxfee=&lt;amount&gt;: '%s'</source>
-        <translation>Недопустимая сумма для -paytxfee =&lt;amount&gt;: '%s'</translation>
+        <source>Invalid amount for -paytxfee=&lt;amount&gt;: &apos;%s&apos;</source>
+        <translation>Недопустимая сумма для -paytxfee =&lt;amount&gt;: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid amount for -reservebalance=&lt;amount&gt;</source>
@@ -5217,8 +5216,8 @@ Please be patient...</source>
         <translation>Недопустимый секретный ключ. См. Документацию.</translation>
     </message>
     <message>
-        <source>Invalid netmask specified in -whitelist: '%s'</source>
-        <translation>Недопустимая сетевая маска, указанная в -whitelist: '%s'</translation>
+        <source>Invalid netmask specified in -whitelist: &apos;%s&apos;</source>
+        <translation>Недопустимая сетевая маска, указанная в -whitelist: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Invalid port detected in masternode.conf</source>
@@ -5449,8 +5448,8 @@ Please be patient...</source>
         <translation>Блокировка masternodes из файла конфигурации masternode (по умолчанию: %u)</translation>
     </message>
     <message>
-        <source>Lookup(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>Lookup (): Invalid -proxy адрес или имя хоста: '%s'</translation>
+        <source>Lookup(): Invalid -proxy address or hostname: &apos;%s&apos;</source>
+        <translation>Lookup (): Invalid -proxy адрес или имя хоста: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Maintain at most &lt;n&gt; connections to peers (default: %u)</source>
@@ -5477,8 +5476,8 @@ Please be patient...</source>
         <translation>Нужен адрес, потому что изменение не является точным</translation>
     </message>
     <message>
-        <source>Need to specify a port with -whitebind: '%s'</source>
-        <translation>Необходимо указать порт с -whitebind: '%s'</translation>
+        <source>Need to specify a port with -whitebind: &apos;%s&apos;</source>
+        <translation>Необходимо указать порт с -whitebind: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Node relay options:</source>
@@ -5513,8 +5512,8 @@ Please be patient...</source>
         <translation>Пароль для подключений JSON-RPC</translation>
     </message>
     <message>
-        <source>isValid(): Invalid -proxy address or hostname: '%s'</source>
-        <translation>isValid (): Invalid -proxy адрес или имя хоста: '%s'</translation>
+        <source>isValid(): Invalid -proxy address or hostname: &apos;%s&apos;</source>
+        <translation>isValid (): Invalid -proxy адрес или имя хоста: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Preparing for resync...</source>
@@ -5801,8 +5800,8 @@ Please be patient...</source>
         <translation>Не удалось запустить HTTP-сервер. Подробнее см. Журнал отладки.</translation>
     </message>
     <message>
-        <source>Unknown network specified in -onlynet: '%s'</source>
-        <translation>Неизвестная сеть, указанная в -onlynet: '%s'</translation>
+        <source>Unknown network specified in -onlynet: &apos;%s&apos;</source>
+        <translation>Неизвестная сеть, указанная в -onlynet: &apos;%s&apos;</translation>
     </message>
     <message>
         <source>Upgrade wallet to latest format</source>
@@ -5873,7 +5872,7 @@ Please be patient...</source>
         <translation>Предупреждение. Неподдерживаемый аргумент -debugnet игнорируется, используйте -debug = net.</translation>
     </message>
     <message>
-        <source>You don't have enough Zerocoins in your wallet</source>
+        <source>You don&apos;t have enough Zerocoins in your wallet</source>
         <translation>У вас недостаточно Zerocoins в вашем кошельке</translation>
     </message>
     <message>
